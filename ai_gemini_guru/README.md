@@ -9,6 +9,7 @@ This directory contains the "Brain" and "Manual" for the Gemini CLI agent. It do
 *   **[04 Memory Configuration](./04_memory_configuration.md)** - Settings for memory persistence.
 *   **[06 Defining Context](./06_defining_gemini_context.md)** - How `gemini.md` files work.
 *   **[08 Security Architecture](./08_security_architecture.md)** - The "Defense-in-Depth" security model.
+*   **[IDE Setup Guide](./IDE_SETUP_GUIDE.md)** - Recommended settings for VS Code.
 
 ## 📝 Session Logs (2026)
 *   **[Memory Storage Investigation](./2026-01-04_1615_memory_storage_investigation.md)**
