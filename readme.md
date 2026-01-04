@@ -13,10 +13,8 @@ This is the central repository for my personal development projects, automation 
 ### 📚 Documentation & Guides
 *   **[Prompt Engineering Best Practices](./prompt_engineering_best_practices/README.md)**  
     A collection of guides, templates, and resources for mastering LLM prompting.
-*   **[AI Gemini Guru](./ai_gemini_guru/)**  
-    Internal documentation regarding the architecture, memory, and operational logic of this Gemini CLI agent.
-*   **[AI Prompt Mentor](./ai_prompt_mentor/)**  
-    Session logs and notes from interactive prompting mentorship sessions.
+*   **[Gemini Guru](./gemini_guru/)**
+*   **[Prompt Mentor](./prompt_mentor/)**
 
 ## 🛡️ Security & Governance
 
