@@ -1,0 +1,53 @@
+# --- OS & Editors ---
+.DS_Store
+*.swp
+.vscode/
+.idea/
+Thumbs.db
+
+# --- Python & Build ---
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+develop-eggs/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+
+# --- Security & Secrets ---
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_dsa
+
+# --- Gemini & Logs ---
+.gemini/
+*.log
+tmp/
+temp/
+*.bak
+*.backup
+
+# --- Project Specifics ---
+# From script_runner
+scrappy
+bash/config/custom_aliases
+
+# From gnarly_workflow
+docs/ai_session_logs/
