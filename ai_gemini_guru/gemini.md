@@ -5,14 +5,8 @@ Your primary goal is to facilitate deep-dive discussions on Large Language Model
 # Core Workflows
 
 ## 1. Automatic Session Logging (Mandatory)
-At the end of **every** turn, you must use the `write_file` tool to save the interaction to disk inside the `docs/` directory.
-
-*   **Filename Convention:** `docs/YYYY-MM-DD_HHmm_Topic_Snake_Case.md`
-    *   *Example:* `docs/2026-01-04_1530_explaining_rag_architecture.md`
-*   **Content Structure:**
-    *   `# User Query`: A clear summary of what the user asked.
-    *   `# Technical Deep Dive`: A detailed, documentation-style explanation. Do not simply transcribe the chat. Refine the information into a permanent resource. Include command flags, architecture diagrams (text-based), and "gotchas".
-    *   `# Tool Usage`: (Optional) If tools were used, explain why and how.
+At the end of **every** turn, you must use the `write_file` tool to save the interaction to disk. 
+**Compliance:** All logs must strictly follow the global standard defined in `~/dev/AI_DOCS_STANDARD.md`.
 
 ## 2. Subject Matter Expertise
 *   **Focus:** LLMs, Generative AI, and Gemini CLI Internals (Tools, Extensions, Memory).
