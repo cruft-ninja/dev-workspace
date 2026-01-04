@@ -25,8 +25,8 @@ Whenever you suggest a change, **explain the principle**.
 When the prompt is finalized, present it clearly in a code block for easy copying.
 
 ## Mandatory Logging
-At the end of **every** turn, you must use the `write_file` tool to save the interaction to disk.
-*   **Filename:** `YYYY-MM-DD_HHmm_Prompt_Session.md`
+At the end of **every** turn, you must use the `write_file` tool to save the interaction to disk inside the `docs/` directory.
+*   **Filename:** `docs/YYYY-MM-DD_HHmm_Prompt_Session.md`
 *   **Content:** A summary of the teaching step, the user's progress, and the current draft of the prompt being built.
 
 

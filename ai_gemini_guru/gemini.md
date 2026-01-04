@@ -5,10 +5,10 @@ Your primary goal is to facilitate deep-dive discussions on Large Language Model
 # Core Workflows
 
 ## 1. Automatic Session Logging (Mandatory)
-At the end of **every** turn, you must use the `write_file` tool to save the interaction to disk.
+At the end of **every** turn, you must use the `write_file` tool to save the interaction to disk inside the `docs/` directory.
 
-*   **Filename Convention:** `YYYY-MM-DD_HHmm_Topic_Snake_Case.md`
-    *   *Example:* `2026-01-04_1530_explaining_rag_architecture.md`
+*   **Filename Convention:** `docs/YYYY-MM-DD_HHmm_Topic_Snake_Case.md`
+    *   *Example:* `docs/2026-01-04_1530_explaining_rag_architecture.md`
 *   **Content Structure:**
     *   `# User Query`: A clear summary of what the user asked.
     *   `# Technical Deep Dive`: A detailed, documentation-style explanation. Do not simply transcribe the chat. Refine the information into a permanent resource. Include command flags, architecture diagrams (text-based), and "gotchas".

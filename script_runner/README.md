@@ -22,7 +22,7 @@ A modern, themed GUI application built with Python and Tkinter for running prede
 
 ## Screenshot
 
-![Screenshot of main window](screenshot.png?raw=true "Main Window")
+![Screenshot of main window](./assets/screenshot.png?raw=true "Main Window")
 
 ## Requirements
 - Python 3.6+ (tested on 3.12)
