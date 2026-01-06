@@ -1,3 +1,9 @@
+---
+title: Debug Memory Context Visibility
+date: 2026-01-04
+tags: [gemini, context, troubleshooting, log]
+---
+
 # User Query
 The user observed that `/memory show` displayed "Current memory content from 3 file(s):" but only listed content from the extension `GEMINI.md` files (Screenshare and Vision). They asked why the "rest of the context" (specifically the newly created `gemini.md` in the current directory) was missing.
 

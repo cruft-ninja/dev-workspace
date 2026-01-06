@@ -1,3 +1,9 @@
+---
+title: Crafting Gemini Context
+date: 2026-01-04
+tags: [gemini, prompt_engineering, guide]
+---
+
 # User Prompt
 please continue logging, and assist me in crafting a gemini.md file to prompt for just the kind of chat we have been having, including file output. the subjec of the chat would be LLMs and other 'ai' tools, focusing especially on gemini, it's available tools and integrations. please quiz me for further info to refine the prompt as you see fit.
 

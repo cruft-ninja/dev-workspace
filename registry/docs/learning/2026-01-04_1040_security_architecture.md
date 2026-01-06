@@ -1,3 +1,9 @@
+---
+title: Security Architecture
+date: 2026-01-04
+tags: [security, architecture, guide]
+---
+
 # AI Workspace Security Architecture
 > **Date:** 2026-01-04
 > **Status:** Active

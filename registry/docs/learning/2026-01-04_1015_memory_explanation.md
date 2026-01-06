@@ -1,3 +1,9 @@
+---
+title: Memory Explanation
+date: 2026-01-04
+tags: [gemini, memory, guide]
+---
+
 # User Prompt
 ok. it's beginning to make sense. please continue to output prompts & responses as files. i would prefer a prompt and response pair combined into a single file if that's doable. the save_memory tool is of great interest. is that what is used internally by the '/memory save' command?
 

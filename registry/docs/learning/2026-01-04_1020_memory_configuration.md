@@ -1,3 +1,9 @@
+---
+title: Memory Configuration
+date: 2026-01-04
+tags: [gemini, memory, config]
+---
+
 # User Prompt
 awesome. your response says "typically a database or JSON file in ~/.gemini/memory/". what options are available to you? is this (user) configurable?
 

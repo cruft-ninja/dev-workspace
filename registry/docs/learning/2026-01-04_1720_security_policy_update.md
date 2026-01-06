@@ -1,3 +1,9 @@
+---
+title: Security Policy Update
+date: 2026-01-04
+tags: [security, policy, log]
+---
+
 # User Query
 Update `gemini.md` to explicitly state that the agent has **read-only** permissions for all files in `~/dev`, ensuring no ambiguity.
 

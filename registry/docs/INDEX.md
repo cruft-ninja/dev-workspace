@@ -1,3 +1,9 @@
+---
+title: Habitat Master Index
+date: 2026-01-05
+tags: [meta, index, map]
+---
+
 # Habitat Master Index
 **Last Updated:** 2026-01-05
 

@@ -10,7 +10,7 @@ alias work="cd $PROJECT_ROOT"
 alias docs="cd $PROJECT_ROOT/docs"
 
 # Workflow Shortcuts
-alias setup="$PROJECT_ROOT/bash/setup_project.sh"
+alias setup="$PROJECT_ROOT/SETUP"
 alias check="make check"
 
 # Git Shortcuts

@@ -81,16 +81,14 @@ copy_self() {
     local target_dir=$1
     log_info "Copying automation scripts to project..."
     
-    mkdir -p "${target_dir}/bash"
-    
     # Copy essential directories recursively
-    cp -r "${SCRIPT_DIR}/../lib" "${target_dir}/bash/"
-    cp -r "${SCRIPT_DIR}/../scripts" "${target_dir}/bash/"
-    cp -r "${SCRIPT_DIR}/../templates" "${target_dir}/bash/"
+    cp -r "${SCRIPT_DIR}/../lib" "${target_dir}/"
+    cp -r "${SCRIPT_DIR}/../scripts" "${target_dir}/"
+    cp -r "${SCRIPT_DIR}/../templates" "${target_dir}/"
     
     # Create symlink for easy access in the new project root
-    # e.g., ./SETUP -> bash/scripts/setup_project.sh
-    ln -sf bash/scripts/setup_project.sh "${target_dir}/SETUP"
+    # e.g., ./SETUP -> scripts/setup_project.sh
+    ln -sf scripts/setup_project.sh "${target_dir}/SETUP"
     
     log_success "Scripts copied and linked in '${target_dir}'."
 }

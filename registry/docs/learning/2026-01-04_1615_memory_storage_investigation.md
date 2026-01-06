@@ -1,3 +1,9 @@
+---
+title: Memory Storage Investigation
+date: 2026-01-04
+tags: [gemini, memory, troubleshooting, log]
+---
+
 # User Query
 The user requested to save the output of the `/memory show` command (typed as `/memory shoo`) to a file for examination.
 

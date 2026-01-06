@@ -1,3 +1,10 @@
+---
+title: uv Package Manager Guide
+date: 2026-01-05
+tags: [python, uv, guide]
+---
+
+# uv Package Manager Guide
 Yes, uv can be a better option than venv and pip for many users, especially if you're prioritizing speed, simplicity, and an all-in-one tool for managing Python environments, packages, and projects on your Linux Mint setup. It's written in Rust, making it 10-100x faster for tasks like package installation and dependency resolution compared to traditional pip. uv effectively replaces both venv (for virtual environments) and pip (for package management), while adding features like automatic Python version management, lockfiles for reproducibility, and script handling—without needing separate tools like poetry or pyenv.
 
 That said, venv and pip are standard Python tools (built into Python itself), so they're always available without extra installation and have no learning curve if you're already familiar with them. uv requires using virtual environments by default (unlike pip alone), which is a good practice anyway, but it might feel opinionated if you prefer minimalism. If your projects are simple and you don't mind slower installs, venv + pip could suffice. However, given your environment notes that you have "no proper environments for python etc." and limited experience with advanced utilities, uv's efficiency and unified approach make it a strong starting point for reproducible workflows.

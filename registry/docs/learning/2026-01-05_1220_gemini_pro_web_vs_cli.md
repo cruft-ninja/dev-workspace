@@ -1,3 +1,9 @@
+---
+title: Gemini CLI vs Web Interface
+date: 2026-01-05
+tags: [gemini, cli, comparison, guide]
+---
+
 # Gemini CLE vs. Gemini Web (Pro Subscription)
 
 This guide outlines the primary differences in model access, available tools, and usage quotas between the developer-oriented Command Line Environment (CLE/CLI) and the consumer-facing Gemini Web Interface (Pro/Advanced).

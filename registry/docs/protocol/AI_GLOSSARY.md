@@ -1,3 +1,9 @@
+---
+title: AI Glossary
+date: 2026-01-06
+tags: [reference, glossary]
+---
+
 # AI Habitat Glossary
 
 | Term | Definition |

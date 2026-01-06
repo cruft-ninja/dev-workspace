@@ -1,3 +1,9 @@
+---
+title: Prompt Engineering Principles
+date: 2026-01-05
+tags: [prompt_engineering, guide, principles]
+---
+
 # Core Principles of Effective Prompt Engineering
 
 These principles serve as the foundation for all prompt development within the AI Development Team.

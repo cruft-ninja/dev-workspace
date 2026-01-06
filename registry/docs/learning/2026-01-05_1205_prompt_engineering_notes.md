@@ -1,3 +1,9 @@
+---
+title: Prompt Engineering Notes (Gemini vs GPT)
+date: 2026-01-05
+tags: [prompt_engineering, model, comparison, reference]
+---
+
 ### Comparison of Prompt Engineering for Gemini and GPT Models
 
 Prompt engineering involves crafting inputs to elicit optimal responses from large language models (LLMs). While core principles—such as clarity, specificity, context provision, and iterative refinement—apply to both Google's Gemini models and OpenAI's GPT models (e.g., GPT-4o, GPT-5), differences arise due to architectural strengths, training data, and multimodal capabilities. As of early 2026, Gemini excels in handling large contexts and multimodal inputs, whereas GPT models often perform better in structured reasoning, creative tasks, and precise instruction following.

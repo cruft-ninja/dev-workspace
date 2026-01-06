@@ -1,3 +1,9 @@
+---
+title: Project Structure Overview
+date: 2026-01-04
+tags: [architecture, workflow, log]
+---
+
 The file `bash/lib/gemini_functions.sh` is indeed gone.
 
 To help you with "comprehending how 'all the things' work" in this **Gnarly Workflow Encabulator** project, here is a breakdown of the key moving parts based on your file structure:

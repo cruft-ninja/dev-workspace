@@ -14,3 +14,9 @@
 
 ## Ideas / Notes
 <!-- Brainstorming area. -->
+
+## Action Items / Decisions
+- [ ] <!-- Trackable outcome 1 -->
+- [ ] <!-- Trackable outcome 2 -->
+
+> **Guideline:** Update this file *during* the discussion as decisions are made, rather than waiting until the end. This helps keep the context active and prevents "drift".

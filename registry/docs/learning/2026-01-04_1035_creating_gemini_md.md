@@ -1,3 +1,9 @@
+---
+title: Creating Context File
+date: 2026-01-04
+tags: [gemini, workflow, log]
+---
+
 # User Prompt
 create the file please, yes
 

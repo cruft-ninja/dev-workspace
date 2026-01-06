@@ -1,3 +1,9 @@
+---
+title: Directory Confusion Clarification
+date: 2026-01-04
+tags: [workflow, bash, log]
+---
+
 # User Query
 The user noticed they are in `/home/ninja/dev/gnarly_workflow_encabulator/gemini_learning_logs` and asked if the Agent changed the directory or if they did, recalling that they were previously in the parent directory (`gnarly_workflow_encabulator`).
 

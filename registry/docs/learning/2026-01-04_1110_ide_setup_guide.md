@@ -1,3 +1,9 @@
+---
+title: IDE Setup Guide
+date: 2026-01-04
+tags: [workflow, ide, guide, vscode]
+---
+
 # IDE Setup Guide for Gemini Agent Workflow
 
 This guide outlines the recommended settings for Visual Studio Code (or similar IDEs) to ensure a seamless and safe collaboration between the human developer and the Gemini CLI agent.

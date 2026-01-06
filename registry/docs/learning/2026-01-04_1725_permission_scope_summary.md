@@ -1,3 +1,9 @@
+---
+title: Permission Scope Summary
+date: 2026-01-04
+tags: [security, architecture, summary, log]
+---
+
 # User Query
 Briefly outline the scope of file and directory access permissions.
 

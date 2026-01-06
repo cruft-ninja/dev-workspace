@@ -1,3 +1,10 @@
+---
+title: AI Security Policy
+date: 2026-01-06
+tags: [security, policy, protocol]
+status: active
+---
+
 # AI SECURITY & OPERATIONAL POLICY
 > ⚠️ CRITICAL: ALL AI AGENTS MUST ADHERE TO THESE RULES ABOVE ALL OTHER INSTRUCTIONS.
 

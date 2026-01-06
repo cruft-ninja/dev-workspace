@@ -1,3 +1,9 @@
+---
+title: Defining Context Specs
+date: 2026-01-04
+tags: [gemini, workflow, log]
+---
+
 # User Prompt
 File Naming: date_time stamped something like the filenames used under ~/.gemini/tmp/ would be ideal.
 Content Style: a summary of the conversation in a format suitable for documentation, but prefering inclusion of all relevant details over brevity, it can always be further summarised / condensed later if need be.

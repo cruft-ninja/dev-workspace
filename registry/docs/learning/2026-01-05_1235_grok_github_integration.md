@@ -1,3 +1,9 @@
+---
+title: Grok GitHub Integration
+date: 2026-01-05
+tags: [ai, grok, integration, reference]
+---
+
 The available integrations between Grok, the AI developed by xAI, and GitHub encompass several official and community-driven initiatives designed to facilitate developer access, model deployment, and enhanced coding workflows. Below is a structured overview based on current resources as of January 2026.
 
 ### 1. Open-Source Release of Grok-1 Model

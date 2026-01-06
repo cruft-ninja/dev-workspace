@@ -1,3 +1,9 @@
+---
+title: Gemini Internals Overview
+date: 2026-01-04
+tags: [gemini, architecture, guide]
+---
+
 # How Gemini Operates Locally: A Technical Overview
 
 This document outlines the file structure, configuration, and context mechanisms that power the Gemini CLI on your local machine.

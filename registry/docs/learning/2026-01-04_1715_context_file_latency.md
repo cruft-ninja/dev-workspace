@@ -1,3 +1,9 @@
+---
+title: Context File Latency
+date: 2026-01-04
+tags: [gemini, context, performance, log]
+---
+
 # User Query
 Does the restriction added to `gemini.md` become effective immediately, or on restart?
 

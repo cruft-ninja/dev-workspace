@@ -1,3 +1,9 @@
+---
+title: Slash Command Redirection
+date: 2026-01-04
+tags: [gemini, cli, troubleshooting, log]
+---
+
 # User Query
 The user reported that running `/memory show > memory_dump.txt` did not create an output file and asked if they need to prefix the command with `!`.
 

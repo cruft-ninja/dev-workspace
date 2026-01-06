@@ -1,3 +1,9 @@
+---
+title: Collaboration Notes
+date: 2026-01-05
+tags: [workflow, meta, collaboration, log]
+---
+
 # Collaboration Notes: Reusable Task Description Template
 **Date:** 2026-01-05
 **Status:** In-Progress

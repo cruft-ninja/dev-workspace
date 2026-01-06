@@ -1,3 +1,9 @@
+---
+title: Prompt Engineering Video Resources
+date: 2026-01-05
+tags: [prompt_engineering, reference, media]
+---
+
 Selected YouTube Videos Most Relevant to Gemini Prompt Engineering Best Practices
 The following five videos have been selected for their direct relevance to prompt engineering best practices specifically with Google's Gemini models. These emphasize techniques applicable to intermediate learners, such as structured prompting, chain-of-thought, and model-specific optimizations.
 

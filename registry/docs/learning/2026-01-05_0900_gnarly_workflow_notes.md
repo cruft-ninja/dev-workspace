@@ -1,3 +1,9 @@
+---
+title: Gnarly Workflow CLI Notes
+date: 2026-01-05
+tags: [workflow, gemini, cli, reference]
+---
+
 gemini --help
 Usage: gemini [options] [command]
 

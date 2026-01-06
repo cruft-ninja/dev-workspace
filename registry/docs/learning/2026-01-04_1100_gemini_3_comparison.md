@@ -1,3 +1,9 @@
+---
+title: Gemini 3 Model Comparison
+date: 2026-01-04
+tags: [gemini, model, comparison, reference]
+---
+
 # Gemini 3 Flash Preview vs. Gemini 3 Pro Preview
 
 Both models are part of Google's next-generation multimodal family, sharing a **1 million token context window** and the ability to process text, images, audio, video, and PDFs. However, they are optimized for different priorities.

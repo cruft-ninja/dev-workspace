@@ -1,3 +1,9 @@
+---
+title: Crafting Mentor Prompt
+date: 2026-01-04
+tags: [prompt_engineering, meta, log]
+---
+
 # User Query
 The user requested a "purpose-built prompt" designed to guide a beginner through the process of writing prompts. They wanted the AI to act as an "expert prompt engineer" and mentor, teaching principles along the way.
 

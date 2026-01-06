@@ -1,3 +1,9 @@
+---
+title: Context File Scope
+date: 2026-01-04
+tags: [gemini, context, workflow, log]
+---
+
 # User Query
 The user is asking for confirmation on how the `gemini.md` context file works across different directories. specifically:
 1.  If they start in `gnarly_workflow_encabulator` (parent), will I read the `gemini.md` there?

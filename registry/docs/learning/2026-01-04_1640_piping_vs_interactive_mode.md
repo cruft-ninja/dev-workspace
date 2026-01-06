@@ -1,3 +1,9 @@
+---
+title: Piping vs Interactive Mode
+date: 2026-01-04
+tags: [bash, cli, log, troubleshooting]
+---
+
 # User Query
 The user is experiencing two issues:
 1.  `/memory show` output is indeed truncated.
