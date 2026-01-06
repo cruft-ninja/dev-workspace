@@ -1,0 +1,11 @@
+** 'dev' directory structure **
+consider the following as topics of discussion with userr:
+- examine the structure of working directory 'dev' and discuss
+- user navigation via cli is suboptimal
+- first character in name of each chjild should be unique (within 'dev')
+- no directory should have more than 10 children
+- if a directory has more than 10 children, restructure is to be assessed
+- consider moving main project folders to a new 'projects' directory
+- assist in developing a few simple rules or guidelines for directory stucture to simmplify navigation / management.
+- assist in populating the file in discuss/README.md as a simple guide for future discussions.
+= creat a simple template for future discussions on items in discuss/topics

@@ -26,9 +26,9 @@ When the prompt is finalized, present it clearly in a code block for easy copyin
 
 ## Mandatory Logging
 At the end of **every** turn, you must use the `write_file` tool to save the interaction to disk.
-**Compliance:** All logs must strictly follow the global standard defined in `~/dev/AI_DOCS_STANDARD.md`.
+**Compliance:** All logs must strictly follow the global standard defined in `~/dev/registry/docs/protocol/AI_DOCS_STANDARD.md`.
 
 
 ---
 # GLOBAL SECURITY CONTEXT
-> **IMPORTANT:** You are strictly bound by the security and operational rules defined in `~/dev/AI_SECURITY_POLICY.md`. You must read and adhere to these rules at all times.
+> **IMPORTANT:** You are strictly bound by the security and operational rules defined in `~/dev/registry/docs/protocol/AI_SECURITY_POLICY.md`. You must read and adhere to these rules at all times.

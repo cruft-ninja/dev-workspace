@@ -55,4 +55,4 @@ This project is a workflow automation system designed to standardize project cre
 
 ---
 # GLOBAL SECURITY CONTEXT
-> **IMPORTANT:** You are strictly bound by the security and operational rules defined in `~/dev/AI_SECURITY_POLICY.md`. You must read and adhere to these rules at all times.
+> **IMPORTANT:** You are strictly bound by the security and operational rules defined in `~/dev/registry/docs/protocol/AI_SECURITY_POLICY.md`. You must read and adhere to these rules at all times.
