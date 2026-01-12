@@ -39,27 +39,22 @@ A modern, themed GUI application built with Python and Tkinter for running prede
 
 ## Installation
 
-1. Clone the repository:
-```
+1. **Ecosystem Integration:**
+   This project is part of the `~/dev` habitat. It is already cloned and managed by the **Overseer**.
 
-   git clone https://github.com/yourusername/bash-script-runner-gui.git
-   cd bash-script-runner-gui
-
-```
-2. Install dependencies:
-```
-
+2. **Dependencies:**
+   Ensure the following Python packages are installed (managed via `uv` or system pip):
+   ```bash
    pip install sv-ttk tkfilebrowser
+   ```
 
-```
-3. Ensure the bash scripts referenced in `scripts.json` exist in the specified paths (e.g., relative to the app directory like `bash/my_script.sh`). Customize paths as needed.
+3. **Configuration:**
+   Ensure the bash scripts referenced in `scripts.json` exist in the specified paths (relative to `bash/`).
 
-4. Run the application:
-```
-
+4. **Run the application:**
+   ```bash
    python runner.py
-
-```
+   ```
 ## Usage
 
 - Launch the app: `python runner.py`
