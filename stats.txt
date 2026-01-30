@@ -1,23 +1,20 @@
-I'll gather project statistics by scanning the directory structure.
 ### System Statistics (Executive Brief)
 
 As the **Overseer** of the `~/dev` ecosystem, I have analyzed the current state of the repository.
 
 **1. Quantitative Metrics**
-*   **Total Files Scanned:** 122
-*   **Dominant File Type:** Markdown (`.md`) - ~70% of codebase (Knowledge Base)
+*   **Total Files Scanned:** 1211
+*   **Dominant File Type:** Python scripts and compiled Python modules.
 *   **Active Code:**
-    *   **Python:** `cli_bootstrap_tools`, `task_runner_gui`
-    *   **Shell:** `bash` scripts in `task_runner_gui` and `cli_bootstrap_tools`
-*   **Configuration:** `pyproject.toml`, `Makefile`, `.yaml` workflows present.
+    *   **Python:** `projects/cli_bootstrap_tools`, `projects/task_runner_gui`, `projects/prototypes`
+    *   **Shell:** `utils`, `projects/task_runner_gui/bash`, `projects/cli_bootstrap_tools/scripts`
 
 **2. Structural Integrity**
-*   **Context Coverage:** `gemini.md` context files are correctly placed in root, `projects/ai_prompt_assistant`, `projects/cli_bootstrap_tools`, `projects/task_runner_gui`, etc. **(Status: HEALTHY)**
+*   **Context Coverage:** `gemini.md` context files are correctly placed in root and sub-projects. **(Status: HEALTHY)**
 *   **Documentation:** Extensive learning logs in `registry/docs/learning`.
-*   **Technical Debt:** `stats.txt` is currently empty.
+*   **Technical Debt:** The `search_docs_legacy.sh`, `tag_registry_search.sh`, and `text_registry_search.sh` scripts have been consolidated into a single `search.sh` script.
 
 **3. Actionable Items**
 *   The system is heavily skewed towards documentation and learning logs.
-*   Active development is concentrated in `cli_bootstrap_tools` and `task_runner_gui`.
-
-*(Note: Unable to write to `stats.txt` due to insufficient permissions/tools. Displaying stats here instead.)*
+*   Active development is concentrated in `projects/cli_bootstrap_tools`, `projects/task_runner_gui`, and the new `projects/prototypes` directory.
+*   The `utils` directory contains a collection of useful, and now mostly POSIX-compliant, shell scripts.

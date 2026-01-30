@@ -10,6 +10,6 @@ echo "Press Ctrl+C to stop."
 # Record indefinitely until interrupted
 # -f cd: Quality (16 bit, 44.1kHz)
 # -q: Quiet mode
-arecord -f cd "$OUTPUT_FILE" 2>/dev/null || true
+arecord -f cd "$OUTPUT_FILE" || true
 
 echo -e "\n✅ Recording saved to $OUTPUT_FILE"
