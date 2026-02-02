@@ -15,6 +15,8 @@ This index provides a centralized map of all global documentation within the Hab
 *   [AI_DOCS_STANDARD.md](./protocol/AI_DOCS_STANDARD.md) - Rules for documentation and logging.
 
 ## 🧠 Learning (Session Logs & Guides)
+*   [HTML5 Selector Prototype](./learning/2026-01-30_1230_html5_selector_prototype.md)
+*   [x11vnc Permissions Deep Dive](./learning/2026-01-30_1030_x11vnc_permissions_deep_dive.md)
 *   [Prompt Engineering Principles](./learning/2026-01-05_1200_prompt_engineering_principles.md)
 *   [UV Package Manager Guide](./learning/2026-01-05_1210_uv_package_manager_guide.md)
 *   [Gemini Internals Deep Dive](./learning/2026-01-04_1010_gemini_internals.md)

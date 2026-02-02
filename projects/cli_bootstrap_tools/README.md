@@ -2,6 +2,10 @@
 
 A CLI automation tool for bootstrapping reproducible Python environments. Orchestrates Git, uv, Ruff, and GitHub Actions for instant project setup.
 
+## Requirements
+- Git
+- uv (Python package manager)
+
 ## Quick Start
 
 ### 1. Load Shortcuts

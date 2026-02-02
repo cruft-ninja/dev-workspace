@@ -30,8 +30,8 @@ main() {
   #    but 'id' position varies. Safer to rely on regex or specific column if standard).
   #    Standard procps-ng top: "%Cpu(s):  1.0 us,  0.5 sy,  0.0 ni, 98.5 id..."
   
-  # Using awk to find the field ending with "id" is robust against column shifts.
-  cpu_idle=$(top -bn2 | grep "Cpu(s)" | tail -1 | awk '{for(i=1;i<=NF;i++) if($i=="id") print $(i-1)}')
+  # Using awk to find the field starting with "id" is robust against column shifts and trailing commas.
+  cpu_idle=$(top -bn2 | grep "Cpu(s)" | tail -1 | awk '{for(i=1;i<=NF;i++) if($i ~ /^id/) print $(i-1)}')
 
   if [[ -z "$cpu_idle" ]]; then
      echo "Error: Could not parse CPU idle time." >&2

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Selector Example</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
+        .highlight { background-color: yellow; font-weight: bold; }
+        .selected { color: white; background-color: #007bff; padding: 2px 5px; border-radius: 3px; }
+        .item-list { margin: 20px 0; }
+        .item { cursor: pointer; padding: 5px; list-style: none; border-bottom: 1px solid #eee; }
+        button { padding: 10px 15px; cursor: pointer; background: #28a745; color: white; border: none; border-radius: 4px; }
+        button:hover { background: #218838; }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-title">HTML5 Selectors</h1>
+    <p>Using <code>document.querySelector</code> and <code>document.querySelectorAll</code>.</p>
+    
+    <ul class="item-list">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+    </ul>
+
+    <button id="action-btn">Highlight All Items</button>
+
+    <script>
+        // 1. Select by ID (#)
+        const title = document.querySelector('#main-title');
+        title.style.color = '#1a0dab';
+
+        // 2. Select by Class (.)
+        const firstItem = document.querySelector('.item');
+        firstItem.classList.add('highlight');
+
+        // 3. Select Multiple (All)
+        const allItems = document.querySelectorAll('.item');
+        
+        const btn = document.querySelector('#action-btn');
+        btn.addEventListener('click', () => {
+            allItems.forEach((item, index) => {
+                // Toggle a class on all elements found via selector
+                item.classList.toggle('selected');
+                
+                // Update text content
+                if (item.classList.contains('selected')) {
+                    item.textContent = `Selected Item ${index + 1}`;
+                } else {
+                    item.textContent = `Item ${index + 1}`;
+                }
+            });
+        });
+
+        // 4. Event delegation/Selection example: click individual items
+        document.querySelector('.item-list').addEventListener('click', (e) => {
+            if (e.target.classList.contains('item')) {
+                e.target.style.borderLeft = '5px solid orange';
+            }
+        });
+    </script>
+</body>
+</html>
