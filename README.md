@@ -39,20 +39,21 @@ This workspace operates under a strict **Defense-in-Depth** security model.
 1.  **Explore:** Browse the `projects/` directory to find specific tools.
 2.  **Run:** Most tools have their own `README.md` with specific installation and usage instructions.
 
-## 🤖 Script Manager
+## 🤖 System Administration Scripts
 
-This repository includes a `manager` script that provides quick access to common system administration tasks. The script is POSIX compliant.
+This repository includes a collection of utility scripts in the `utils/` directory for common system administration tasks.
 
 **Usage:**
 
 ```bash
-./manager [command]
+./utils/<script_name>.sh
 ```
 
-**Available Commands:**
+**Available Utilities:**
 
-*   `users`: List logged-in users.
-*   `disk`: Show disk usage.
-*   `mem`: Show memory usage.
-*   `ps`: Show running processes.
-*   `net`: Show network status.
+*   **`user_list.sh`**: List logged-in human users.
+*   **`disk_monitor.sh`**: Show disk usage for the root filesystem.
+*   **`mem_hogs.sh`**: Show top processes by memory usage.
+*   **`check_cpu.sh`**: Check current CPU load.
+*   **`port_listen.sh`**: Show active network listeners.
+*   **`sys_info.sh`**: Show general system health summary.

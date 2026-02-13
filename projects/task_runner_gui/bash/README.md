@@ -5,10 +5,9 @@ This directory serves as the repository for the executable scripts managed by th
 
 ## Key Files
 (Examples of scripts found in this directory)
-*   **`update_system`**: Performs a full system package update and upgrade (likely requires sudo).
-*   **`ollama_update` / `ollama_model_update`**: Scripts for managing the Ollama AI tool and its models.
-*   **`docker_image_prune` / `update_docker_images`**: Utilities for maintaining Docker containers and images.
-*   **`system_monitor`**: Launches the system monitor GUI.
+*   **`update_system.sh`**: Performs a full system package update and upgrade (likely requires sudo).
+*   **`docker_image_prune.sh` / `update_docker_images.sh`**: Utilities for maintaining Docker containers and images.
+*   **`system_monitor.sh`**: Launches the system monitor GUI.
 
 ## Dependencies
 *   **System Tools**: Relies heavily on installed system CLI tools such as `apt`, `docker`, `gnome-system-monitor`, `chromium`, etc.

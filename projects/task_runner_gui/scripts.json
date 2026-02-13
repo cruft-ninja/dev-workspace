@@ -35,20 +35,6 @@
         "description": "Remove unused Docker images"
     },
     {
-        "label": "Ollama Update",
-        "needs_sudo": true,
-        "path": "bash/ollama_update.sh",
-        "tags": ["ai", "ollama", "update"],
-        "description": "Update Ollama to the latest version"
-    },
-    {
-        "label": "Ollama Models Update",
-        "needs_sudo": false,
-        "path": "bash/ollama_model_update.sh",
-        "tags": ["ai", "ollama", "models", "update"],
-        "description": "Pull latest versions of installed Ollama models"
-    },
-    {
         "label": "System Update",
         "needs_sudo": true,
         "path": "bash/update_system.sh",

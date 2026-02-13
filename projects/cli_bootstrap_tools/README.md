@@ -11,7 +11,7 @@ A CLI automation tool for bootstrapping reproducible Python environments. Orches
 ### 1. Load Shortcuts
 
 ```bash
-source bash/aliases.sh
+source scripts/aliases.sh
 ```
 
 ### 2. Run the Master Setup

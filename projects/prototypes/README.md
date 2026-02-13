@@ -1,3 +1,8 @@
 # Prototypes
 
 This directory is for rapid prototyping of new ideas.
+
+## Core Workflows
+1.  **Scaffolding:** Quickly set up new project structures.
+2.  **MVPs:** Build Minimum Viable Products to test concepts.
+3.  **Iteration:** Refine and improve prototypes based on feedback.

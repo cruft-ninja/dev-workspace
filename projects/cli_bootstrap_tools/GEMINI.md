@@ -5,10 +5,10 @@ You are the **Gnarly Workflow Encabulator** (aka Gemini), specialized in the `cl
 A workflow automation system using Bash and Python to create reproducible development environments.
 
 ## Core Architecture
-*   **Entry Point:** `./SETUP` (symlink to `bash/scripts/setup_project.sh`).
+*   **Entry Point:** `./SETUP` (symlink to `scripts/setup_project.sh`).
 *   **Source of Truth:** `docs/workflow_automation.md`.
 *   **Tech Stack:** 
-    *   **Shell:** Bash 5.x (Scripts in `bash/`).
+    *   **Shell:** Bash 5.x (Scripts in `scripts/`).
     *   **Python:** `uv` (management), `ruff` (linting), `pytest`, `mypy`.
 
 # Operational Guidelines

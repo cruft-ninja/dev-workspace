@@ -49,7 +49,7 @@ A modern, themed GUI application built with Python and Tkinter for running prede
    ```
 
 3. **Configuration:**
-   Ensure the bash scripts referenced in `scripts.json` exist in the specified paths (relative to `bash/`).
+   Ensure the bash scripts referenced in `scripts.json` exist in the specified paths (relative to the application root, e.g., starting with `bash/`).
 
 4. **Run the application:**
    ```bash
