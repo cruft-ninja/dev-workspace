@@ -5,25 +5,25 @@ This is the central repository for my personal development projects, automation 
 ## 📂 Project Directory
 
 ### 💻 Development
-*   **[Prototypes](projects/prototypes/README.md)**  
+*   **[Prototypes](projects/p_prototypes/README.md)**  
     Rapid prototyping of new ideas.
-*   **[Reference Materials](projects/reference_materials/README.md)**  
+*   **[Reference Materials](projects/r_reference_materials/README.md)**  
     A collection of useful documents, articles, and code snippets.
 
 ### 📊 Data
-*   **[Data Analysis](projects/data_analysis/README.md)**  
+*   **[Data Analysis](projects/a_data_analysis/README.md)**  
     Data analysis projects.
 
 ### 🛠️ Tools & Automation
-*   **[Gnarly Workflow Encabulator (CLI Bootstrap)](projects/cli_bootstrap_tools/README.md)**  
+*   **[Gnarly Workflow Encabulator (CLI Bootstrap)](projects/n_gnarly_workflow_encabulator/README.md)**  
     A CLI automation tool for bootstrapping reproducible Python environments using `uv`, `ruff`, and `git`.
-*   **[Script Runner GUI](projects/task_runner_gui/README.md)**  
+*   **[Script Runner GUI](projects/t_task_runner_gui/README.md)**  
     A modern Tkinter/Python GUI for organizing and executing bash scripts with a "Command Center" interface.
 
 ### 📚 Documentation & Knowledge
-*   **[Prompt Engineering Spoke](projects/prompt_engineering/README.md)**  
+*   **[Prompt Engineering Spoke](projects/l_llm_prompt_engineering/README.md)**  
     The unified hub for the **Library** (Best Practices) and the **Workshop** (Mentorship & Logs).
-*   **[Gemini Internals](projects/docs_gemini_internals/README.md)**  
+*   **[Gemini Internals](projects/d_docs_gemini_internals/README.md)**  
     Deep-dive documentation on the CLI ecosystem and LLM interactions.
 
 ## 🛡️ Security & Governance

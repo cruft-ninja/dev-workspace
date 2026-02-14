@@ -15,7 +15,7 @@ The output header "Current memory content from 3 file(s)" is a crucial clue.
 *   **File 2:** `~/.gemini/extensions/vision/GEMINI.md` (Visible in output)
 *   **File 3:** **Where is it?**
 
-It is highly probable that the **third file** *is* the `gemini.md` we just created (`/home/ninja/dev/gnarly_workflow_encabulator/gemini_learning_logs/gemini.md`), but the output was truncated or the user missed it in the scrollback.
+It is highly probable that the **third file** *is* the `gemini.md` we just created (`/home/ninja/dev/projects/n_gnarly_workflow_encabulator/gemini_learning_logs/gemini.md`), but the output was truncated or the user missed it in the scrollback.
 
 ### 2. Context Loading Hierarchy
 The Gemini CLI constructs its "System Prompt" (Memory) by aggregating text from specific locations. The order of precedence (or concatenation) is typically:

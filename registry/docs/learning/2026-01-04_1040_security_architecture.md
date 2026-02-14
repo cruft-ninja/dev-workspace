@@ -57,6 +57,6 @@ Our solution mimics a corporate security clearance system with three distinct la
 In Software Engineering, this pattern is known as the **Principle of Least Privilege (PoLP)**. A process (or person) should only have the bare minimum access necessary to do its job.
 
 *   **Before:** Every AI session ran as `ninja` (you), with full power to delete your entire home directory.
-*   **After:** An AI session in `script_runner` runs as a confined process that literally cannot see the world outside `script_runner`.
+*   **After:** An AI session in `projects/t_task_runner_gui` runs as a confined process that literally cannot see the world outside `projects/t_task_runner_gui`.
 
 This architecture transforms the AI from a "Wild West" tool into a "Managed Microservice."

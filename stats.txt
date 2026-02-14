@@ -6,8 +6,8 @@ As the **Overseer** of the `~/dev` ecosystem, I have analyzed the current state 
 *   **Total Files Scanned:** 1211
 *   **Dominant File Type:** Python scripts and compiled Python modules.
 *   **Active Code:**
-    *   **Python:** `projects/cli_bootstrap_tools`, `projects/task_runner_gui`, `projects/prototypes`
-    *   **Shell:** `utils`, `projects/task_runner_gui/bash`, `projects/cli_bootstrap_tools/scripts`
+    *   **Python:** `projects/n_gnarly_workflow_encabulator`, `projects/t_task_runner_gui`, `projects/p_prototypes`
+    *   **Shell:** `utils`, `projects/t_task_runner_gui/bash`, `projects/n_gnarly_workflow_encabulator/scripts`
 
 **2. Structural Integrity**
 *   **Context Coverage:** `gemini.md` context files are correctly placed in root and sub-projects. **(Status: HEALTHY)**
@@ -16,5 +16,5 @@ As the **Overseer** of the `~/dev` ecosystem, I have analyzed the current state 
 
 **3. Actionable Items**
 *   The system is heavily skewed towards documentation and learning logs.
-*   Active development is concentrated in `projects/cli_bootstrap_tools`, `projects/task_runner_gui`, and the new `projects/prototypes` directory.
+*   Active development is concentrated in `projects/n_gnarly_workflow_encabulator`, `projects/t_task_runner_gui`, and the new `projects/p_prototypes` directory.
 *   The `utils` directory contains a collection of useful, and now mostly POSIX-compliant, shell scripts.

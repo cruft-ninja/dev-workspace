@@ -15,8 +15,8 @@ The `registry/` directory is evolving into the central knowledge base for the wo
 *   **Retrieval Speed:** How can we find the right document in under 5 seconds?
 *   **Search Depth:** Do we need just filename search (fuzzy finding) or full-text content search?
 *   **Semantic Search:** Is "find documents about setting up python" (semantic) required, or is "grep 'python setup'" (keyword) sufficient?
-*   **Integration:** How should this expose itself? A CLI command (e.g., `search_docs`)? A GUI tab in `task_runner_gui`?
-*   **Tool Location:** Where should the search script live? `cli_bootstrap_tools`, `registry/scripts/`, or `utils/`?
+*   **Integration:** How should this expose itself? A CLI command (e.g., `search_docs`)? A GUI tab in `projects/t_task_runner_gui`?
+*   **Tool Location:** Where should the search script live? `projects/n_gnarly_workflow_encabulator`, `registry/scripts/`, or `utils/`?
 
 ## Ideas / Notes
 *   **Option 1: The Unix Way (Ripgrep/FZF)**
@@ -36,7 +36,7 @@ The `registry/` directory is evolving into the central knowledge base for the wo
     ```
 
 *   **Option 2: Python Search Tool**
-    *   Develop a script in `task_runner_gui` or `cli_bootstrap_tools`.
+    *   Develop a script in `projects/t_task_runner_gui` or `projects/n_gnarly_workflow_encabulator`.
     *   Features: Tag filtering, category browsing, simple keyword indexing.
     *   *Pros:* Customizable, fits existing `runner.py` ecosystem.
 

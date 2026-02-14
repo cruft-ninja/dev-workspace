@@ -6,7 +6,7 @@ tags: [gemini, context, workflow, log]
 
 # User Query
 The user is asking for confirmation on how the `gemini.md` context file works across different directories. specifically:
-1.  If they start in `gnarly_workflow_encabulator` (parent), will I read the `gemini.md` there?
+1.  If they start in `projects/n_gnarly_workflow_encabulator` (parent), will I read the `gemini.md` there?
 2.  If they start in `gemini_learning_logs` (child), will I read the `gemini.md` here?
 3.  Is it really that simple?
 
@@ -21,7 +21,7 @@ Yes, it is (mostly) that simple.
 *   **File Present:** Yes, we just created `gemini_learning_logs/gemini.md`.
 *   **Outcome:** I load this file. I become the "Technical Writer". I log everything to markdown files.
 
-### 3. Scenario B: Inside `gnarly_workflow_encabulator/` (Parent)
+### 3. Scenario B: Inside `projects/n_gnarly_workflow_encabulator/` (Parent)
 *   **File Present:** I do not know yet (we haven't checked).
     *   *If there is NO `gemini.md` there:* I will revert to my default generic assistant persona.
     *   *If there IS a `gemini.md` there:* I will adopt whatever persona is defined in *that* file.

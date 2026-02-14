@@ -19,7 +19,7 @@ The agent operates under a "Least Privilege" model reinforced by explicit system
 ### 2. The Active Sandbox: Current Working Directory
 *   **Status:** Read/Write.
 *   **Purpose:** This is the agent's workspace. All artifacts (logs, code generation, config updates) must be confined here.
-*   **Path:** `/home/ninja/dev/gemini_guru`
+*   **Path:** `/home/ninja/dev/projects/d_docs_gemini_internals`
 
 ### 3. Verification
 Before executing a `write_file` or `replace` operation, the agent must check:

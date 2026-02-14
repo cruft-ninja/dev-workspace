@@ -12,7 +12,7 @@ status: active
 *   **Read-Only Zones:** You may NEVER modify, delete, or overwrite files in:
     *   `.git/` directories.
     *   `*.bak` or `*.backup` files (unless explicitly restoring them).
-    *   The `gemini_guru/` logs (located in the workspace root; append-only is permitted).
+    *   The `registry/docs/learning/` logs (append-only is permitted).
 *   **Configuration Safety:** DO NOT modify `uv.lock`, `pyproject.toml`, or `requirements.txt` without first verifying the project builds/runs.
 
 ## 2. Shell Command Constraints

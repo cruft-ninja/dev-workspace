@@ -9,7 +9,7 @@ The prototype demonstrates modern JavaScript DOM selection techniques using the 
 - `document.querySelectorAll()`: Returns a static `NodeList` of all matching elements. Unlike older methods (e.g., `getElementsByClassName`), `NodeList` can be directly iterated with `.forEach()` in modern browsers.
 
 ## Implementation Details
-- **Path**: `projects/prototypes/selector_demo/`
+- **Path**: `projects/p_prototypes/selector_demo/`
 - **Logic**:
     - Selects the main title by ID to change color.
     - Selects the first list item by class to add a highlight.
